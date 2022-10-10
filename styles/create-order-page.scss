@@ -24,6 +24,10 @@
     width: 100%;
     box-sizing: border-box;
   }
+
+  textarea {
+    resize: vertical;
+  }
 }
 
 .order-container {
@@ -81,6 +85,7 @@
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+  background-color: white;
   &:hover {
     background-color: black;
     color: white;
@@ -89,4 +94,8 @@
 
 .color-green {
   color: lightgreen;
+}
+
+.pointer {
+  cursor: pointer;
 }

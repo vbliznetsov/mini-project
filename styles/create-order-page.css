@@ -25,6 +25,9 @@
   width: 100%;
   box-sizing: border-box;
 }
+.form-container textarea {
+  resize: vertical;
+}
 
 .order-container {
   height: 50%;
@@ -75,6 +78,7 @@
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+  background-color: white;
 }
 .btn:hover {
   background-color: black;
@@ -83,4 +87,8 @@
 
 .color-green {
   color: lightgreen;
+}
+
+.pointer {
+  cursor: pointer;
 }/*# sourceMappingURL=create-order-page.css.map */
