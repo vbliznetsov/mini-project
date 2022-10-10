@@ -1,0 +1,49 @@
+.bin-order-list {
+  list-style: none;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+.bin-order-list li {
+  padding: 10px 0;
+}
+.bin-order-list .produtc-item {
+  display: flex;
+  justify-content: space-between;
+}
+.bin-order-list .produtc-item .produtc-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.to-order {
+  text-align: right;
+}
+.to-order span {
+  padding: 0 20px;
+  font-size: 20px;
+}
+.to-order .btn {
+  display: inline-block;
+  border: 1px solid black;
+  color: black;
+  text-transform: uppercase;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.to-order .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.produtc-wrapper input[type=number] {
+  width: 30px;
+}
+
+.price {
+  padding: 0 20px;
+  font-size: 20px;
+  color: #f64200;
+}/*# sourceMappingURL=basket.css.map */

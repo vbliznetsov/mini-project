@@ -1,0 +1,47 @@
+@import "header";
+@import "footer";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:wght@400;700&display=swap");
+
+* {
+  font-family: Poppins, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: url("../assets/bg-all-pages.jpeg") repeat center;
+  background-size: cover;
+}
+
+.container {
+  background-color: white;
+  border: 15px solid lightgrey;
+  padding: 20px;
+  margin: auto 5%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex: 0 0 auto;
+}
+
+.image-about-us {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  img {
+    margin: 5px;
+    max-width: 100%;
+  }
+}

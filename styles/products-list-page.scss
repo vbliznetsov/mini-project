@@ -1,0 +1,47 @@
+.categories-products {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .card {
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 5px;
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover h3 {
+      text-decoration: underline;
+      color: grey;
+    }
+
+    a:hover .image {
+      outline: 1px solid black;
+    }
+
+    .image {
+      max-width: 100%;
+      object-fit: contain;
+      min-width: 300px;
+    }
+
+    .title {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+
+    .description {
+      margin-top: 0;
+      padding: 0;
+      text-align: left;
+    }
+
+    .price {
+      color: #f64200;
+    }
+  }
+}

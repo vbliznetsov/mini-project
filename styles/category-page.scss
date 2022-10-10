@@ -1,0 +1,27 @@
+.title-1 {
+  text-align: center;
+}
+
+.categories-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15px;
+  list-style: none;
+
+  .card {
+    text-align: center;
+    width: 350px;
+    border-radius: 5px;
+
+    .title {
+      font-weight: bold;
+      font-size: larger;
+    }
+
+    .description {
+      padding: 10px;
+      text-align: left;
+    }
+  }
+}

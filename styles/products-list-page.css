@@ -1,0 +1,40 @@
+.categories-products {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.categories-products .card {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
+.categories-products .card a {
+  color: black;
+  text-decoration: none;
+}
+.categories-products .card a:hover h3 {
+  text-decoration: underline;
+  color: grey;
+}
+.categories-products .card a:hover .image {
+  outline: 1px solid black;
+}
+.categories-products .card .image {
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  min-width: 300px;
+}
+.categories-products .card .title {
+  font-size: 18px;
+  margin: 5px 0;
+}
+.categories-products .card .description {
+  margin-top: 0;
+  padding: 0;
+  text-align: left;
+}
+.categories-products .card .price {
+  color: #f64200;
+}/*# sourceMappingURL=products-list-page.css.map */

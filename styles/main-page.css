@@ -1,0 +1,23 @@
+.big-banner {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 250px 0;
+  background-image: url(../assets/big-baner.jpeg);
+  background-size: cover;
+}
+.big-banner h1 {
+  display: inline;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 48px;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1200px) {
+  .big-banner h1 {
+    border: none;
+  }
+}/*# sourceMappingURL=main-page.css.map */

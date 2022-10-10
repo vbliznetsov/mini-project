@@ -1,0 +1,86 @@
+.ordering {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.form-container,
+.order-container {
+  width: 40%;
+  padding: 15px;
+  border: 2px solid rgba(211, 211, 211, 0.5);
+  border-radius: 5px;
+  background-color: rgba(211, 211, 211, 0.2);
+}
+
+.form-container {
+  display: grid;
+}
+.form-container select,
+.form-container input,
+.form-container textarea {
+  display: block;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.order-container {
+  height: 50%;
+}
+.order-container .little-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+.order-container .little-card .color-grey {
+  color: grey;
+}
+.order-container .little-card h4 {
+  margin: 0;
+}
+.order-container .little-card span {
+  font-size: small;
+}
+.order-container .little-card img {
+  width: 90px;
+  height: 50px;
+}
+.order-container .color-green {
+  color: green;
+}
+
+.to-pay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.to-pay h3 {
+  margin: 15px 0;
+}
+
+.price {
+  font-size: 20px;
+  color: #f64200;
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid black;
+  color: black;
+  text-transform: uppercase;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.color-green {
+  color: lightgreen;
+}/*# sourceMappingURL=create-order-page.css.map */

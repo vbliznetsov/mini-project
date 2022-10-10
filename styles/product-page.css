@@ -1,0 +1,60 @@
+.grid-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+}
+.grid-two-col .pictures-product {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
+  gap: 15px;
+  margin: 0;
+  padding: 20px;
+}
+.grid-two-col .pictures-product .big-picture {
+  grid-row: span 3;
+  grid-column: span 3;
+}
+.grid-two-col .order-description {
+  color: black;
+}
+.grid-two-col table {
+  border-collapse: collapse;
+}
+.grid-two-col table td {
+  padding: 5px;
+  padding-right: 50px;
+}
+.grid-two-col table td:nth-child(odd) {
+  font-weight: bold;
+}
+.grid-two-col table tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+.grid-two-col table tr:nth-child(even) {
+  background: lightgrey;
+}
+.grid-two-col .price {
+  font-size: 20px;
+  color: #f64200;
+}
+.grid-two-col .btn {
+  display: inline-block;
+  border: 1px solid black;
+  color: black;
+  text-transform: uppercase;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.grid-two-col .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .container .grid-two-col {
+    display: grid;
+    grid-template-columns: unset;
+  }
+}/*# sourceMappingURL=product-page.css.map */

@@ -1,0 +1,20 @@
+.categories-products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 40px;
+  list-style: none;
+}
+.categories-products a {
+  display: inline-block;
+  font-size: large;
+  padding: 20px 0;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.categories-products a:hover {
+  color: grey;
+  text-decoration: underline;
+}/*# sourceMappingURL=guitar-category-page.css.map */

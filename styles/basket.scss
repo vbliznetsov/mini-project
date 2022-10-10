@@ -1,0 +1,53 @@
+.bin-order-list {
+  list-style: none;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+
+  li {
+    padding: 10px 0;
+  }
+
+  .produtc-item {
+    display: flex;
+    justify-content: space-between;
+
+    .produtc-wrapper {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+.to-order {
+  text-align: right;
+
+  span {
+    padding: 0 20px;
+    font-size: 20px;
+  }
+
+  .btn {
+    display: inline-block;
+    border: 1px solid black;
+    color: black;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+.produtc-wrapper input[type="number"] {
+  width: 30px;
+}
+
+.price {
+  padding: 0 20px;
+  font-size: 20px;
+  color: #f64200;
+}

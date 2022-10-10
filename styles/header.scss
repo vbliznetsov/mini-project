@@ -1,0 +1,82 @@
+.page-header {
+  .header-mini-banner h2 {
+    margin: 0;
+  }
+
+  .bin {
+    img {
+      height: 30px;
+    }
+  }
+
+  .navigation-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+
+    a {
+      display: block;
+      text-decoration: none;
+      padding: 45px 30px;
+      text-transform: uppercase;
+      color: black;
+      font-weight: bold;
+      transition-duration: 0.8s;
+    }
+
+    a:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+  }
+
+  .header-mini-banner {
+    height: 30px;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 255, 1) 50%,
+      rgba(255, 255, 0, 1) 50%
+    );
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+
+    h2::selection {
+      color: rgb(255, 0, 0);
+      background-color: black;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .page-header {
+    .navigation ul {
+      padding: 0;
+
+      a {
+        padding: 10px;
+      }
+    }
+
+    .navbar {
+      flex-direction: column;
+    }
+
+    form {
+      margin: 20px auto;
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .navigation-list {
+    flex-direction: column;
+  }
+}

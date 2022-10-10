@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../styles/page.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles/create-order-page.css"
+    />
+    <title>Корзина</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="page-header">
+          <div class="header-mini-banner">
+            <h2>rus - НІ! Peace - ДА!</h2>
+          </div>
+          <div class="navbar">
+            <a href="../index.html">
+              <img src="../assets/logo-black.svg" alt="Логотип" />
+            </a>
+            <nav class="navigation">
+              <ul class="navigation-list">
+                <li><a href="guitars-categories.html">Продукти</a></li>
+                <li><a href="payment-delivery.html">Доставка та оплата</a></li>
+                <li><a href="about-us.html">Про нас</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+              </ul>
+            </nav>
+            <form>
+              <label>
+                <input type="search" placeholder="Пошук" />
+              </label>
+              <button class="button" type="submit">Пошук</button>
+            </form>
+            <div class="bin">
+              <a href="basket.html">
+                <img src="../assets/cart.png" alt="Корзина" />
+              </a>
+            </div>
+          </div>
+        </header>
+        <main>
+          <div class="container">
+            <h1>Оформлення замовлення</h1>
+            <div class="ordering">
+              <form class="form-container" action="#" method="post">
+                <div class="payment-method">
+                  <h3>Спосіб сплати:</h3>
+                  <select name="payment-method">
+                    <option value="card">Оплата карткою на сайті</option>
+                    <option value="cash">Оплата готівкою при отриманні</option>
+                  </select>
+                </div>
+                <div class="delivery-method">
+                  <h3>Спосіб доставки:</h3>
+                  <img src="../assets/nova-poshta.png" alt="Нова пошта" />
+                  <select class="delivery method">
+                    <option value="in-department">У відділенні</option>
+                    <option value="сourier-delivery">Доставка курʼєром</option>
+                  </select>
+                  <select class="select-city">
+                    <option value="Kharkov">Харків</option>
+                    <option value="Kyiv">Київ</option>
+                    <option value="Lviv">Львів</option>
+                  </select>
+                  <select name="department-number">
+                    <option value="department-1">Відділення №1</option>
+                    <option value="department-2">Відділення №2</option>
+                    <option value="department-3">Відділення №3</option>
+                  </select>
+                </div>
+                <div class="recipient information">
+                  <h3>Інформація про одержувача:</h3>
+                  <input type="text" placeholder="Прізвище" />
+                  <input type="text" placeholder="Ім'я" />
+                  <input type="text" placeholder="По батькові" />
+                </div>
+                <div class="сontacts">
+                  <h3>Контакти:</h3>
+                  <input type="tel" placeholder="+38(__)___-__-__" />
+                  <input type="email" placeholder="Email" />
+                </div>
+                <div class="comment">
+                  <h3>Коментар:</h3>
+                  <textarea name="comment" id="" cols="30" rows="5"></textarea>
+                </div>
+                <div class="to-pay">
+                  <h3>До сплати:</h3>
+                  <span class="price">16000 грн.</span>
+                </div>
+                <input
+                  type="submit"
+                  class="btn"
+                  value="Підтвердити замовлення"
+                />
+              </form>
+              <div class="order-container">
+                <h3>Ваше замовлення</h3>
+                <div class="little-card">
+                  <img src="../assets/fender-3-small.png" alt="Фото продукту" />
+                  <div class="description-little-card">
+                    <h4>Fender CD-60S All Mahogany Natural</h4>
+                    <span class="color-grey"
+                      >Ціна: 8000грн <br />
+                      Кількість: 1 шт.</span
+                    >
+                  </div>
+                </div>
+                <div class="little-card">
+                  <img src="../assets/fender-3-small.png" alt="Фото продукту" />
+                  <div class="description-little-card">
+                    <h4>Fender CD-60S All Mahogany Natural</h4>
+                    <span class="color-grey"
+                      >Ціна: 8000грн <br />
+                      Кількість: 1 шт.</span
+                    >
+                  </div>
+                </div>
+                <hr />
+                <div class="to-pay">
+                  <h3>До сплати:</h3>
+                  <span class="price">16000 грн.</span>
+                </div>
+                <span class="color-green">Відправимо сьогодні!</span>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <footer class="page-footer">
+        <div class="footer-top">
+          <img src="../assets/logo-white.svg" alt="Логотип#" />
+          <div class="shop-info">
+            <div>
+              <h3>Інформація</h3>
+              <ul>
+                <li><a href="about-us.html">Про нас</a></li>
+                <li>
+                  <a href="payment-delivery.html#product-delivery"
+                    >Доставка та оплата</a
+                  >
+                </li>
+                <li><a href="contacts.html">Контакти</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Допомога</h3>
+              <ul>
+                <li><a href="contacts.html">Звʼязатися з нами</a></li>
+                <li>
+                  <a href="payment-delivery.html#product-return"
+                    >Повернення товару</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>Час роботи</h3>
+              <ul>
+                <li>В будні: 08:00 - 18:00</li>
+                <li>Субота: 10:00 - 15:00</li>
+                <li>Неділля: вихідний</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Ми в соц. мережах</h3>
+              <ul>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Telegram</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="copyright">
+            Copyright &#169; 2022 Інтернет магазин "Guitars from Kharkiv"
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

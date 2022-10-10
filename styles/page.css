@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:wght@400;700&display=swap");
+.page-header .header-mini-banner h2 {
+  margin: 0;
+}
+.page-header .bin img {
+  height: 30px;
+}
+.page-header .navigation-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+}
+.page-header .navigation-list a {
+  display: block;
+  text-decoration: none;
+  padding: 45px 30px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  transition-duration: 0.8s;
+}
+.page-header .navigation-list a:hover {
+  background-color: black;
+  color: white;
+}
+.page-header .navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+.page-header .header-mini-banner {
+  height: 30px;
+  background: linear-gradient(180deg, rgb(0, 0, 255) 50%, rgb(255, 255, 0) 50%);
+  text-align: center;
+  color: rgba(0, 0, 0, 0);
+}
+.page-header .header-mini-banner h2::-moz-selection {
+  color: rgb(255, 0, 0);
+  background-color: black;
+}
+.page-header .header-mini-banner h2::selection {
+  color: rgb(255, 0, 0);
+  background-color: black;
+}
+
+@media screen and (max-width: 1200px) {
+  .page-header .navigation ul {
+    padding: 0;
+  }
+  .page-header .navigation ul a {
+    padding: 10px;
+  }
+  .page-header .navbar {
+    flex-direction: column;
+  }
+  .page-header form {
+    margin: 20px auto;
+  }
+}
+@media screen and (max-width: 570px) {
+  .navigation-list {
+    flex-direction: column;
+  }
+}
+.page-footer {
+  background-color: black;
+  color: white;
+}
+
+.page-footer .footer-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+.page-footer .footer-top a {
+  color: white;
+  text-decoration: none;
+}
+.page-footer .footer-top a:hover {
+  text-decoration: underline;
+}
+
+.footer-top ul {
+  list-style: none;
+  padding: 0;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.shop-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-top img {
+    margin: 0 auto;
+  }
+  .shop-info {
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 5px;
+    width: calc(100% - 20px);
+  }
+  .shop-info div {
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+  }
+}
+* {
+  font-family: Poppins, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: url("../assets/bg-all-pages.jpeg") repeat center;
+  background-size: cover;
+}
+
+.container {
+  background-color: white;
+  border: 15px solid lightgrey;
+  padding: 20px;
+  margin: auto 5%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex: 0 0 auto;
+}
+
+.image-about-us {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.image-about-us img {
+  margin: 5px;
+  max-width: 100%;
+}/*# sourceMappingURL=page.css.map */
