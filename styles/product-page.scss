@@ -1,21 +1,20 @@
 .grid-two-col {
   display: grid;
   grid-template-columns: repeat(2, minmax(150px, 1fr));
-
   align-items: start;
 
   .product-pictures {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-
     gap: 15px;
     margin: 0;
     padding: 20px;
+    justify-content: center;
 
     .big-picture {
       grid-row: span 3;
       grid-column: span 3;
-      width: 550px;
+      width: 100%;
+      max-width: 550px;
       height: 550px;
     }
 
