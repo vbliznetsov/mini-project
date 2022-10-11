@@ -6,6 +6,13 @@
   padding: 40px;
   list-style: none;
 }
+.categories-products .image {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  min-width: 150px;
+}
 .categories-products a {
   display: inline-block;
   font-size: large;

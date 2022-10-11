@@ -3,8 +3,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 0;
 }
 .categories-products .card {
+  box-sizing: border-box;
+  width: 250px;
   text-align: center;
   border-radius: 5px;
   padding: 10px 5px;
@@ -22,9 +25,10 @@
 }
 .categories-products .card .image {
   max-width: 100%;
+  height: auto;
   -o-object-fit: contain;
      object-fit: contain;
-  min-width: 300px;
+  min-width: 150px;
 }
 .categories-products .card .title {
   font-size: 18px;
