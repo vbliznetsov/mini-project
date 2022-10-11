@@ -53,4 +53,10 @@
   padding: 0;
   border: none;
   background: transparent;
+}
+
+@media screen and (max-width: 670px) {
+  div.wrapper {
+    width: 640px;
+  }
 }/*# sourceMappingURL=basket.css.map */

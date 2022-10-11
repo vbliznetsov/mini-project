@@ -99,3 +99,24 @@
 .pointer {
   cursor: pointer;
 }
+
+@media screen and (max-width: 640px) {
+  div.wrapper {
+    width: 640px;
+  }
+
+  .ordering {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-container {
+    order: 1;
+  }
+
+  .form-container,
+  .order-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
